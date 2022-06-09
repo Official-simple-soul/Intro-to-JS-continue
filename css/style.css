@@ -20,17 +20,16 @@ body {
 .row {
     width: 100%;
     margin: auto;
-    background-color: aliceblue;
+    background-color: rgb(178, 194, 207);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border: none;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.259), rgba(0, 0, 0, 0.284)), url(/img/arnold-schwarzenegger-zeus-god-credit_instagram_schwarzenegger.webp);
-    background-repeat: no-repeat;
+    background-image: black;
     background-size: cover;
     background-position: center;
-    padding: 50px 10px;
+    padding: 10px 10px;
 }
 .card {
     position: relative;
@@ -40,6 +39,10 @@ body {
     padding: 10px;
     background-color: rgba(20, 33, 45, 0.726);
     border-radius: 25px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.5)), url(/img/arnold-schwarzenegger-zeus-god-credit_instagram_schwarzenegger.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .card::before {
     content: "";
@@ -91,6 +94,7 @@ button {
     width: 50%;
     height: 200px;
     margin: auto;
+    box-shadow: 2px 2px 2px 2px white;
 }
 
 /* h4 {
