@@ -10,6 +10,7 @@ let memberDetail = [
         complexion: "Chocolate",
         learnt: "HTML, CSS, Bootstrap",
         age: "28",
+        jingle: "Yo It's Simple-soul. You feel me?",
     
     },
 
@@ -22,6 +23,7 @@ let memberDetail = [
         complexion: "Fair",
         learnt: "HTML, CSS, Bootstrap",
         age: "28",
+        jingle: "It's your girl Luchii Cynthia",
     
     },
 
@@ -34,6 +36,7 @@ let memberDetail = [
         complexion: "dark",
         learnt: "HTML, CSS, Bootstrap",
         age: "28",
+        jingle: "I'm Tolu your boy naani",
     
     },
 
@@ -46,6 +49,7 @@ let memberDetail = [
         complexion: "dark",
         learnt: "HTML, CSS, Bootstrap",
         age: "25",
+        jingle: "Ogochuks, this is Khalid. You go collect o"
     
     },
 
@@ -58,6 +62,7 @@ let memberDetail = [
         complexion: "dark",
         learnt: "HTML, CSS, Bootstrap",
         age: "28",
+        jingle: "Mhen, no cap. Na still Oreoluwa"
     
     },
 
@@ -70,6 +75,7 @@ let memberDetail = [
         complexion: "Light Skinned",
         learnt: "HTML, CSS, Javascript",
         age: "28",
+        jingle: "Holla Adejoke! JS is fun with you"
     
     },
 
@@ -82,6 +88,7 @@ let memberDetail = [
         complexion: "dark",
         learnt: "HTML, CSS, Bootstrap",
         age: "28",
+        jingle: "TJay in the building"
     
     },
 
@@ -94,6 +101,7 @@ let memberDetail = [
         complexion: "dark",
         learnt: "HTML, CSS, JS",
         age: "27",
+        jingle: "Mr Paulo says Helllllo"
     
     },
 
@@ -106,6 +114,7 @@ let memberDetail = [
         complexion: "dark",
         learnt: "HTML, CSS, JS",
         age: "22",
+        jingle: "All hail kodecamp from Mavdavis"
     
     },
 
@@ -118,9 +127,11 @@ let memberDetail = [
         complexion: "dark",
         learnt: "HTML, CSS, Bootstrap",
         age: "28",
+        jingle: "Well, Etinosa no get Chill o"
     
     },
 ]
+
          
 let row = document.querySelector(".row");
 
@@ -150,7 +161,7 @@ let funnyMessage = "Damn! You just knocked"
 
 function clickMe(i) {
     
-    alert(funnyMessage + " " + memberDetail[i].name + " " + "on the head!");
+    alert(memberDetail[i].jingle );
 
 
 }
